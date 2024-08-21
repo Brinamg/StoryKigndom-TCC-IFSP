@@ -46,10 +46,9 @@
 
 ## Estrutura do Projeto
 
-- `src/components/`: Contém os componentes reutilizáveis do app.
 - `src/screens/`: Contém as telas principais do app.
 - `src/services/`: Contém as integrações com a API do Google Books e Firebase.
-- `src/navigation/`: Gerencia a navegação entre as telas do app.
+
 
 ## Contribuição
 
