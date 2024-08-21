@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "your-app-name",
+    "slug": "your-app-slug",
+    "version": "1.0.0",
+    "sdkVersion": "XX.0.0",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Este aplicativo precisa acessar sua biblioteca de fotos para fazer upload de imagens de perfil."
+      }
+    },
+    "android": {
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    }
+  }
+}
